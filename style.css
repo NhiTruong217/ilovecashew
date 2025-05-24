@@ -1,0 +1,13 @@
+html{
+    font-family: monospace;
+    color: steelblue;
+}
+body {
+    background-color: rgb(248, 235, 211);
+}
+p {
+    font-size: 1.5rem;
+}
+ol {
+    font-size: 1.5rem;
+}
