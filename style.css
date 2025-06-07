@@ -58,7 +58,7 @@ ol {
     padding: 1em;
 }
 .current {
-    text-decoration: underline dotted rgb(168, 198, 255);
+    text-decoration: underline dotted rgb(102, 43, 46);
 }
 .accordion-header {
     width: 100%;
