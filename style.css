@@ -21,7 +21,7 @@ ol {
     background-position: center;
     background-size: contain;
     height: 54rem;
-    color: rgb(139, 35, 16);
+    color: rgb(37, 93, 131);
     font-size: 2rem;
     border-radius: 0 0 1.2em 1.2em;
 
@@ -29,4 +29,51 @@ ol {
     align-items: center;
     flex-direction: column;
     padding-bottom: 5%;
+}
+.navbar {
+    background-color: rgb(103, 134, 190);
+    display: flex;
+    justify-content: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    transition: 1s;
+    font-size: 1.3rem;
+    border-radius: 0.5em;
+
+}
+
+.nav-links li a:hover {
+    background-color: rgb(168, 198, 255);
+}
+.title {
+    text-align: center;
+    padding: 1em;
+}
+.current {
+    text-decoration: underline dotted rgb(168, 198, 255);
+}
+.accordion-header {
+    width: 100%;
+    background-color: rgba(103, 155, 223, 0.842);
+    border: none;
+    padding: 1em 1em 1em 3em;
+    text-align: left;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.8s;    
+}
+.accordion-header:hover {
+    background-color: rgb(168, 198, 255);
+}
+.accordion-content {
+    display: none;
 }
