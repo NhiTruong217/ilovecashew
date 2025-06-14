@@ -17,11 +17,11 @@ ol {
     color: brown;
 }
 #header {
-    background-image: url(https://thumbs.dreamstime.com/b/angry-businessman-working-laptop-1916581.jpg);
+    background-image: url(https://st2.depositphotos.com/1525321/7353/i/950/depositphotos_73531829-stock-photo-funny-men.jpg);
     background-position: center;
     background-size: contain;
     height: 54rem;
-    color: rgb(37, 93, 131);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     border-radius: 0 0 1.2em 1.2em;
 
@@ -77,3 +77,70 @@ ol {
 .accordion-content {
     display: none;
 }
+
+.hidden {
+    display: none !important;
+}
+
+.blog-entry {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding-right: 2%;
+    margin-bottom: 2em;
+}
+
+.blog-entry img {
+    width: 40%;
+    border-radius: 0 1.5em 1.5em 0;
+}
+
+#enter-password {
+    text-align: center;
+}
+
+#enter-password input {
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    border: 0;
+    padding: 0.2em;
+    width: 40%;
+}
+
+#enter-password button {
+    font-size: 1.3rem;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    width: 7%;
+    border: 0;
+    background-color: rgb(145, 179, 243);
+    color: whitesmoke;
+}
+#password-field {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+#header input {
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    border: 0;
+    padding: 0.2em;
+    width: 40%;
+}
+
+#header button {
+    font-size: 1.3rem;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    width: 17%;
+    border: 0;
+    background-color: rgb(113, 141, 197);
+    color: whitesmoke;
+}
+
+
+
+
+
