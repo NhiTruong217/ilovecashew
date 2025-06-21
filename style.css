@@ -78,9 +78,6 @@ ol {
     display: none;
 }
 
-.hidden {
-    display: none !important;
-}
 
 .blog-entry {
     display: flex;
@@ -89,6 +86,11 @@ ol {
     padding-right: 2%;
     margin-bottom: 2em;
 }
+
+.hidden {
+    display: none;
+}
+
 
 .blog-entry img {
     width: 40%;

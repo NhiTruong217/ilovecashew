@@ -20,3 +20,21 @@ document.querySelectorAll('.accordion-header').forEach(function (button) {
         content.style.display = (content.style.display === 'block') ? 'none' : 'block'; 
     });
 });
+
+const PASSWORD = "*****";
+
+function validatePass() {
+    const login = document.getElementById('password');
+    const message = document.getElementById('message');
+    const hiddenEntries = document.querySelectorAll('.hidden');
+
+    if (login.value === PASSWORD) {
+        message.textContent = 'Password confirmed. See hidden entries below';
+        hiddenEntries.forEach(function(entry) {entry.style.display ='flex';});
+    } else {
+        message.textContent = 'Password denied. No free cashew';
+        hiddenEntries.forEach(function(entry) {entry.style.display ='none';}); 
+    }
+
+    login.value = '';
+}
